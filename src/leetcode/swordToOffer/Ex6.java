@@ -1,5 +1,7 @@
 package leetcode.swordToOffer;
 
+import leetcode.ListNode;
+
 import java.util.Stack;
 
 /**
@@ -29,12 +31,5 @@ public class Ex6 {
 
     }
 
-    public class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode(int x) {
-            val = x;
-        }
-    }
 }

@@ -1,5 +1,7 @@
 package leetcode.swordToOffer;
 
+import leetcode.TreeNode;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -237,19 +239,5 @@ public class Ex26 {
             return false;
         }
         return recur(A.left, B.left) && recur(A.right, B.right);
-    }
-
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-
-        }
-
-        TreeNode(int x) {
-            val = x;
-        }
     }
 }
